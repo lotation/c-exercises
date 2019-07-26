@@ -3,7 +3,7 @@
 int main() {
 
     int a,b,c,d,e;
-    char n;
+    //char n;
 
     printf("Insert two numbers ");
     scanf("%d %d",&a,&d);
@@ -14,7 +14,7 @@ int main() {
 
     c=a+b;
     e=d*(b-1);
-    
+
     printf("First result is %d ",c);
     printf("\nSecond result is %d ",e);
     //printf("Your answer is%c ",n);
