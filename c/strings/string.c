@@ -2,11 +2,14 @@
 #include <string.h>
 
 int main()  {
-    char string[20], string2[20]="Hi everyone!\n";
+    char string2[20];
+    /*char string[50];
 
-    printf("Hi everyone!\n");
-    scanf(" %s ",&string);
-    printf("\n%s",string);
+    GETS e SCANF non possono coesistere!
+
+    printf("Insert a string\n");
+    scanf(" %s ",string);
+    printf("\n%s\n",string); */
 
     puts("\nInsert a string");
 
