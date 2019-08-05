@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 int main() {
@@ -12,8 +13,6 @@ int main() {
 
   printf("\nLa prima stringa contiene %ld caratteri   ", a);
   printf("La seconda stringa contiene %ld caratteri\n", b);
-
-
 
   return 0;
 }
