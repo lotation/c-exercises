@@ -11,9 +11,11 @@ int main() {
   long int b = strlen(s2);
 
   printf("\nLa prima stringa contiene %ld caratteri   ", a);
-  printf("La seconda stringa contiene %ld caratteri\n", b);
+  printf("\nLa seconda stringa contiene %ld caratteri\n", b);
 
-
+  int res;
+  res = strcmp(s1, s2);
+  printf("\n%d\n",res );
 
   return 0;
 }
